@@ -13,6 +13,7 @@
 		84472E692283230200533348 /* TokenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E682283230200533348 /* TokenHandler.swift */; };
 		84472E6B22834DBA00533348 /* TokenHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E6A22834DBA00533348 /* TokenHandlerTests.swift */; };
 		84472E6D2283508A00533348 /* TokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E6C2283508A00533348 /* TokenStore.swift */; };
+		84472E7122845D3500533348 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 84472E7022845D3500533348 /* .gitignore */; };
 		848BAA85227D7FA9000D7B98 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848BAA84227D7FA9000D7B98 /* User.swift */; };
 		84EFD04B227D63B100557183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFD04A227D63B100557183 /* AppDelegate.swift */; };
 		84EFD04D227D63B100557183 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFD04C227D63B100557183 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 		84472E682283230200533348 /* TokenHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenHandler.swift; sourceTree = "<group>"; };
 		84472E6A22834DBA00533348 /* TokenHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenHandlerTests.swift; sourceTree = "<group>"; };
 		84472E6C2283508A00533348 /* TokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStore.swift; sourceTree = "<group>"; };
+		84472E7022845D3500533348 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		848BAA84227D7FA9000D7B98 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		84EFD047227D63B100557183 /* JWTLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWTLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EFD04A227D63B100557183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 		84EFD03E227D63B100557183 = {
 			isa = PBXGroup;
 			children = (
+				84472E7022845D3500533348 /* .gitignore */,
 				84EFD049227D63B100557183 /* JWTLogin */,
 				84EFD05E227D63B300557183 /* JWTLoginTests */,
 				84EFD048227D63B100557183 /* Products */,
@@ -271,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84472E7122845D3500533348 /* .gitignore in Resources */,
 				84EFD055227D63B300557183 /* LaunchScreen.storyboard in Resources */,
 				84EFD052227D63B300557183 /* Assets.xcassets in Resources */,
 				84EFD050227D63B100557183 /* Main.storyboard in Resources */,
