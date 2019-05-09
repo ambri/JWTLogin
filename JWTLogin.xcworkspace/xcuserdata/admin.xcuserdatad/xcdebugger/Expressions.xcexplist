@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "TokenHandlerTests.test_Token_Save():TokenHandlerTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_tokenHandler.accessToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

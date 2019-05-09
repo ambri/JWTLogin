@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21B2C004A931A868DA041C4F /* Pods_JWTLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36EE3B65D5E0949FB03F8557 /* Pods_JWTLogin.framework */; };
+		84472E58227E1F7D00533348 /* TokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E57227E1F7D00533348 /* TokenTests.swift */; };
+		84472E5A227E1FD100533348 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E59227E1FD100533348 /* Token.swift */; };
+		84472E692283230200533348 /* TokenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E682283230200533348 /* TokenHandler.swift */; };
+		84472E6B22834DBA00533348 /* TokenHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E6A22834DBA00533348 /* TokenHandlerTests.swift */; };
+		84472E6D2283508A00533348 /* TokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E6C2283508A00533348 /* TokenStore.swift */; };
+		848BAA85227D7FA9000D7B98 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848BAA84227D7FA9000D7B98 /* User.swift */; };
+		84EFD04B227D63B100557183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFD04A227D63B100557183 /* AppDelegate.swift */; };
+		84EFD04D227D63B100557183 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFD04C227D63B100557183 /* ViewController.swift */; };
+		84EFD050227D63B100557183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EFD04E227D63B100557183 /* Main.storyboard */; };
+		84EFD052227D63B300557183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EFD051227D63B300557183 /* Assets.xcassets */; };
+		84EFD055227D63B300557183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EFD053227D63B300557183 /* LaunchScreen.storyboard */; };
+		84EFD06B227D787600557183 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFD06A227D787600557183 /* UserTests.swift */; };
+		BD88664CFC8A9913B4D7B853 /* Pods_JWTLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F433BBEAA4922C719E0824 /* Pods_JWTLoginTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84EFD05C227D63B300557183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EFD03F227D63B100557183 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EFD046227D63B100557183;
+			remoteInfo = JWTLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0950BAFD8BCDAE3C34BE4134 /* Pods-JWTLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTLoginTests.debug.xcconfig"; path = "Target Support Files/Pods-JWTLoginTests/Pods-JWTLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FBECF70D0F96235415D6947 /* Pods-JWTLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTLogin.debug.xcconfig"; path = "Target Support Files/Pods-JWTLogin/Pods-JWTLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		36EE3B65D5E0949FB03F8557 /* Pods_JWTLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWTLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3898A5EE87F011B3BE9987D0 /* Pods-JWTLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTLogin.release.xcconfig"; path = "Target Support Files/Pods-JWTLogin/Pods-JWTLogin.release.xcconfig"; sourceTree = "<group>"; };
+		84472E57227E1F7D00533348 /* TokenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenTests.swift; sourceTree = "<group>"; };
+		84472E59227E1FD100533348 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		84472E682283230200533348 /* TokenHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenHandler.swift; sourceTree = "<group>"; };
+		84472E6A22834DBA00533348 /* TokenHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenHandlerTests.swift; sourceTree = "<group>"; };
+		84472E6C2283508A00533348 /* TokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStore.swift; sourceTree = "<group>"; };
+		848BAA84227D7FA9000D7B98 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		84EFD047227D63B100557183 /* JWTLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWTLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EFD04A227D63B100557183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84EFD04C227D63B100557183 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84EFD04F227D63B100557183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84EFD051227D63B300557183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84EFD054227D63B300557183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84EFD056227D63B300557183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EFD05B227D63B300557183 /* JWTLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWTLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EFD061227D63B300557183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EFD06A227D787600557183 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		CBEA676A5A0E2162E10AB9C2 /* Pods-JWTLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTLoginTests.release.xcconfig"; path = "Target Support Files/Pods-JWTLoginTests/Pods-JWTLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7F433BBEAA4922C719E0824 /* Pods_JWTLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWTLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EFD044227D63B100557183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B2C004A931A868DA041C4F /* Pods_JWTLogin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EFD058227D63B300557183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD88664CFC8A9913B4D7B853 /* Pods_JWTLoginTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515892F7F45D27538B195D14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FBECF70D0F96235415D6947 /* Pods-JWTLogin.debug.xcconfig */,
+				3898A5EE87F011B3BE9987D0 /* Pods-JWTLogin.release.xcconfig */,
+				0950BAFD8BCDAE3C34BE4134 /* Pods-JWTLoginTests.debug.xcconfig */,
+				CBEA676A5A0E2162E10AB9C2 /* Pods-JWTLoginTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84472E5B227E254F00533348 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84EFD04C227D63B100557183 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84472E5C227E277800533348 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84EFD06A227D787600557183 /* UserTests.swift */,
+				84472E57227E1F7D00533348 /* TokenTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84472E5D227E278700533348 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84472E6A22834DBA00533348 /* TokenHandlerTests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84472E6622830E9E00533348 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84472E682283230200533348 /* TokenHandler.swift */,
+				84472E6C2283508A00533348 /* TokenStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		848BAA81227D7F14000D7B98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				848BAA84227D7FA9000D7B98 /* User.swift */,
+				84472E59227E1FD100533348 /* Token.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84EFD03E227D63B100557183 = {
+			isa = PBXGroup;
+			children = (
+				84EFD049227D63B100557183 /* JWTLogin */,
+				84EFD05E227D63B300557183 /* JWTLoginTests */,
+				84EFD048227D63B100557183 /* Products */,
+				515892F7F45D27538B195D14 /* Pods */,
+				D56A00146804EA6709C131E0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84EFD048227D63B100557183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EFD047227D63B100557183 /* JWTLogin.app */,
+				84EFD05B227D63B300557183 /* JWTLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EFD049227D63B100557183 /* JWTLogin */ = {
+			isa = PBXGroup;
+			children = (
+				84472E6622830E9E00533348 /* Services */,
+				84472E5B227E254F00533348 /* Views */,
+				848BAA81227D7F14000D7B98 /* Models */,
+				84EFD04A227D63B100557183 /* AppDelegate.swift */,
+				84EFD04E227D63B100557183 /* Main.storyboard */,
+				84EFD051227D63B300557183 /* Assets.xcassets */,
+				84EFD053227D63B300557183 /* LaunchScreen.storyboard */,
+				84EFD056227D63B300557183 /* Info.plist */,
+			);
+			path = JWTLogin;
+			sourceTree = "<group>";
+		};
+		84EFD05E227D63B300557183 /* JWTLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				84472E5D227E278700533348 /* Services */,
+				84EFD061227D63B300557183 /* Info.plist */,
+				84472E5C227E277800533348 /* Models */,
+			);
+			path = JWTLoginTests;
+			sourceTree = "<group>";
+		};
+		D56A00146804EA6709C131E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36EE3B65D5E0949FB03F8557 /* Pods_JWTLogin.framework */,
+				E7F433BBEAA4922C719E0824 /* Pods_JWTLoginTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EFD046227D63B100557183 /* JWTLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EFD064227D63B300557183 /* Build configuration list for PBXNativeTarget "JWTLogin" */;
+			buildPhases = (
+				4ED96706BF974EC0D79038A1 /* [CP] Check Pods Manifest.lock */,
+				84EFD043227D63B100557183 /* Sources */,
+				84EFD044227D63B100557183 /* Frameworks */,
+				84EFD045227D63B100557183 /* Resources */,
+				CA291996BC313BC432E413A3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWTLogin;
+			productName = JWTLogin;
+			productReference = 84EFD047227D63B100557183 /* JWTLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84EFD05A227D63B300557183 /* JWTLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EFD067227D63B300557183 /* Build configuration list for PBXNativeTarget "JWTLoginTests" */;
+			buildPhases = (
+				DF718F0067FBDACA44DB26BA /* [CP] Check Pods Manifest.lock */,
+				84EFD057227D63B300557183 /* Sources */,
+				84EFD058227D63B300557183 /* Frameworks */,
+				84EFD059227D63B300557183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EFD05D227D63B300557183 /* PBXTargetDependency */,
+			);
+			name = JWTLoginTests;
+			productName = JWTLoginTests;
+			productReference = 84EFD05B227D63B300557183 /* JWTLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EFD03F227D63B100557183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Ati;
+				TargetAttributes = {
+					84EFD046227D63B100557183 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					84EFD05A227D63B300557183 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+						TestTargetID = 84EFD046227D63B100557183;
+					};
+				};
+			};
+			buildConfigurationList = 84EFD042227D63B100557183 /* Build configuration list for PBXProject "JWTLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84EFD03E227D63B100557183;
+			productRefGroup = 84EFD048227D63B100557183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EFD046227D63B100557183 /* JWTLogin */,
+				84EFD05A227D63B300557183 /* JWTLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EFD045227D63B100557183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EFD055227D63B300557183 /* LaunchScreen.storyboard in Resources */,
+				84EFD052227D63B300557183 /* Assets.xcassets in Resources */,
+				84EFD050227D63B100557183 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EFD059227D63B300557183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4ED96706BF974EC0D79038A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWTLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA291996BC313BC432E413A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWTLogin/Pods-JWTLogin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JWTDecode/JWTDecode.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWTDecode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWTLogin/Pods-JWTLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF718F0067FBDACA44DB26BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWTLoginTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EFD043227D63B100557183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84472E6D2283508A00533348 /* TokenStore.swift in Sources */,
+				84EFD04D227D63B100557183 /* ViewController.swift in Sources */,
+				84EFD04B227D63B100557183 /* AppDelegate.swift in Sources */,
+				84472E692283230200533348 /* TokenHandler.swift in Sources */,
+				848BAA85227D7FA9000D7B98 /* User.swift in Sources */,
+				84472E5A227E1FD100533348 /* Token.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EFD057227D63B300557183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EFD06B227D787600557183 /* UserTests.swift in Sources */,
+				84472E58227E1F7D00533348 /* TokenTests.swift in Sources */,
+				84472E6B22834DBA00533348 /* TokenHandlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84EFD05D227D63B300557183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EFD046227D63B100557183 /* JWTLogin */;
+			targetProxy = 84EFD05C227D63B300557183 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84EFD04E227D63B100557183 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EFD04F227D63B100557183 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84EFD053227D63B300557183 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EFD054227D63B300557183 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EFD062227D63B300557183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84EFD063227D63B300557183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84EFD065227D63B300557183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FBECF70D0F96235415D6947 /* Pods-JWTLogin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JWTLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ati.JWTLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84EFD066227D63B300557183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3898A5EE87F011B3BE9987D0 /* Pods-JWTLogin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JWTLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ati.JWTLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84EFD068227D63B300557183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0950BAFD8BCDAE3C34BE4134 /* Pods-JWTLoginTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JWTLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ati.JWTLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWTLogin.app/JWTLogin";
+			};
+			name = Debug;
+		};
+		84EFD069227D63B300557183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBEA676A5A0E2162E10AB9C2 /* Pods-JWTLoginTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JWTLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Ati.JWTLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWTLogin.app/JWTLogin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EFD042227D63B100557183 /* Build configuration list for PBXProject "JWTLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EFD062227D63B300557183 /* Debug */,
+				84EFD063227D63B300557183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EFD064227D63B300557183 /* Build configuration list for PBXNativeTarget "JWTLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EFD065227D63B300557183 /* Debug */,
+				84EFD066227D63B300557183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EFD067227D63B300557183 /* Build configuration list for PBXNativeTarget "JWTLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EFD068227D63B300557183 /* Debug */,
+				84EFD069227D63B300557183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EFD03F227D63B100557183 /* Project object */;
+}
