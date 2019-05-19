@@ -3,10 +3,88 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "closure #1 in closure #1 in closure #1 in closure #2 in closure #2 in closure #1 in RouterViewControllerSpec.spec():RouterViewControllerTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "ut.navigationController?.presentedViewController">
+            </PersistentString>
+            <PersistentString
+               value = "sut.presentedViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RouterViewModelTests.test_Init_HasTokenHandler():RouterViewModelTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sut.tokenHandler">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in RouterViewController.viewDidLoad():RouterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.loginViewController">
+            </PersistentString>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #3 in closure #3 in closure #1 in RouterViewControllerSpec.spec():RouterViewControllerTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel.forceSuccAuthentication">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "NSStrinFromClass(appDelegateClass!)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #3 in closure #1 in RouterViewControllerSpec.spec():RouterViewControllerTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sut.presentedViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RouterViewController.viewDidLoad():RouterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewModel as! RouterViewModel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RouterViewControllerSpec.MockRouterViewModel.refreshToken():RouterViewControllerTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "forceSuccAuthentication">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "TokenHandlerTests.test_Token_Save():TokenHandlerTests.swift">
          <PersistentStrings>
             <PersistentString
                value = "_tokenHandler.accessToken">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RouterViewControllerTests.test_HasViewModel():RouterViewControllerTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sut.viewModel">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

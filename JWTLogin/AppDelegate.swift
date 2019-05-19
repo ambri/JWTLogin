@@ -7,15 +7,29 @@
 //
 
 import UIKit
+import Swinject
+import SwinjectStoryboard
 
-@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    override init() {
+        super.init()
+        SwinjectStoryboard.initialize()
+    }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        SwinjectStoryboard.apply()
+        
+        let storyboard = SwinjectStoryboard.create(name: "Main", bundle: nil)
+        window = UIWindow()
+        if let vc = storyboard.instantiateInitialViewController() {
+            window?.rootViewController = UINavigationController(rootViewController: vc)
+        }
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

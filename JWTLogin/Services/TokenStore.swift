@@ -8,36 +8,45 @@
 
 import Foundation
 
-enum TokenType: String {
-    case access
-    case refresh
+enum TokenError: String, Error {
+    case notFound
 }
 
 protocol PTokenStore {
     func save(_ token: Token) -> Bool
-    func get(_ type: TokenType) -> String
+    func get() -> Token?
+    func clear()
 }
 
 class TokenStore: PTokenStore {
-    var tokenStoreSuite: String = "TokenSuite"
-    var userDefaults: UserDefaults?
+    private var _tokenKey = "tokenKey"
+    private var _tokenStoreSuite: String = "tokenSuite"
+    var userDefaults: UserDefaults!
     
     init() {
-        self.userDefaults = UserDefaults(suiteName: tokenStoreSuite)
+        self.create()
+    }
+
+    private func create() {
+        userDefaults = UserDefaults(suiteName: _tokenStoreSuite)
     }
     
     func save(_ token: Token) -> Bool {
-        userDefaults?.set(token.accessToken, forKey: TokenType.access.rawValue)
-        userDefaults?.set(token.refreshToken, forKey: TokenType.refresh.rawValue)
+        let encoder = JSONEncoder()
+        userDefaults.set(try! encoder.encode(token), forKey: _tokenKey)
         return true
     }
     
-    func get(_ type: TokenType) -> String {
-        switch type {
-        case .access:
-            return userDefaults?.string(forKey: TokenType.access.rawValue) ?? ""
-        case .refresh:
-            return userDefaults?.string(forKey: TokenType.refresh.rawValue) ?? ""
+    func get() -> Token? {
+        guard let json = userDefaults.string(forKey: _tokenKey) else {
+            return nil
         }
+
+        return try! JSONDecoder().decode(Token.self, from: json.data(using: .utf8)!)
+    }
+    
+    func clear() {
+        userDefaults.removeSuite(named: _tokenStoreSuite)
+        create()
     }
 }

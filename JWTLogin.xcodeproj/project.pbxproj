@@ -8,19 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		21B2C004A931A868DA041C4F /* Pods_JWTLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36EE3B65D5E0949FB03F8557 /* Pods_JWTLogin.framework */; };
-		84472E58227E1F7D00533348 /* TokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E57227E1F7D00533348 /* TokenTests.swift */; };
+		586030EF953B438684A680CA /* RxOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5860359AA1CF2110468CF11B /* RxOperators.swift */; };
+		586032B482BA74FDFEC1421C /* RouterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58603AA152D49E972D637B8F /* RouterViewController.swift */; };
+		586032EFE32ABD9557D56C7C /* TokenStoreSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58603F2A6DD1134DA065229C /* TokenStoreSpec.swift */; };
+		586032FFF3FCC523F1B8D806 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586032F9055E6F9C76157834 /* LoginViewModel.swift */; };
+		586034FC1847D94FD6633C18 /* FakeAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58603D5E8BC051501A58D7BA /* FakeAppDelegate.swift */; };
+		5860377A05A0586382D1B533 /* LoginViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586032814A1C339475FD8277 /* LoginViewModelSpec.swift */; };
+		5860391004C7A69D791483B5 /* AuthApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58603D2436A54C1EA6541EC8 /* AuthApi.swift */; };
+		58603C2B6E90E116D2E49A23 /* DependecyAssemblySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5860343F466FC2D329CE7AB2 /* DependecyAssemblySpec.swift */; };
+		58603C386BBA8567EFA4219B /* LoginViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586031B37F30B78AD2526C0E /* LoginViewControllerSpec.swift */; };
+		84472E58227E1F7D00533348 /* TokenSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E57227E1F7D00533348 /* TokenSpec.swift */; };
 		84472E5A227E1FD100533348 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E59227E1FD100533348 /* Token.swift */; };
-		84472E692283230200533348 /* TokenHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E682283230200533348 /* TokenHandler.swift */; };
-		84472E6B22834DBA00533348 /* TokenHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E6A22834DBA00533348 /* TokenHandlerTests.swift */; };
 		84472E6D2283508A00533348 /* TokenStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472E6C2283508A00533348 /* TokenStore.swift */; };
 		84472E7122845D3500533348 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 84472E7022845D3500533348 /* .gitignore */; };
+		84781396228AFAB4001A3E5D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84781395228AFAB4001A3E5D /* LoginViewController.swift */; };
+		84781399228C40A0001A3E5D /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84781398228C40A0001A3E5D /* TestHelper.swift */; };
+		8478139B228D5E94001A3E5D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478139A228D5E94001A3E5D /* HomeViewController.swift */; };
 		848BAA85227D7FA9000D7B98 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848BAA84227D7FA9000D7B98 /* User.swift */; };
+		84B4E8FD22860D7E00345B2D /* RouterViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4E8FC22860D7E00345B2D /* RouterViewControllerSpec.swift */; };
+		84B4E9022286168900345B2D /* RouterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4E9012286168900345B2D /* RouterViewModel.swift */; };
+		84B4E9042286185900345B2D /* DependencyAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4E9032286185900345B2D /* DependencyAssembly.swift */; };
+		84B4E9072286D49800345B2D /* RouterViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4E9062286D49800345B2D /* RouterViewModelSpec.swift */; };
+		84B4E9092286F2D000345B2D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4E9082286F2D000345B2D /* main.swift */; };
+		84B4E9102286FC6600345B2D /* ViewControllerInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4E90F2286FC6600345B2D /* ViewControllerInjector.swift */; };
+		84B4E91C228742F700345B2D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4E91B228742F700345B2D /* AuthService.swift */; };
+		84B4E91E2287483300345B2D /* RefreshTokenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4E91D2287483300345B2D /* RefreshTokenData.swift */; };
+		84B67A30228D9398004FB738 /* FakeJsons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B67A2F228D9398004FB738 /* FakeJsons.swift */; };
+		84B67A32228DAD66004FB738 /* AuthServiceSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B67A31228DAD66004FB738 /* AuthServiceSpec.swift */; };
 		84EFD04B227D63B100557183 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFD04A227D63B100557183 /* AppDelegate.swift */; };
-		84EFD04D227D63B100557183 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFD04C227D63B100557183 /* ViewController.swift */; };
 		84EFD050227D63B100557183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EFD04E227D63B100557183 /* Main.storyboard */; };
 		84EFD052227D63B300557183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EFD051227D63B300557183 /* Assets.xcassets */; };
 		84EFD055227D63B300557183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EFD053227D63B300557183 /* LaunchScreen.storyboard */; };
-		84EFD06B227D787600557183 /* UserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFD06A227D787600557183 /* UserTests.swift */; };
+		84EFD06B227D787600557183 /* UserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EFD06A227D787600557183 /* UserSpec.swift */; };
 		BD88664CFC8A9913B4D7B853 /* Pods_JWTLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F433BBEAA4922C719E0824 /* Pods_JWTLoginTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,23 +58,42 @@
 		1FBECF70D0F96235415D6947 /* Pods-JWTLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTLogin.debug.xcconfig"; path = "Target Support Files/Pods-JWTLogin/Pods-JWTLogin.debug.xcconfig"; sourceTree = "<group>"; };
 		36EE3B65D5E0949FB03F8557 /* Pods_JWTLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWTLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3898A5EE87F011B3BE9987D0 /* Pods-JWTLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTLogin.release.xcconfig"; path = "Target Support Files/Pods-JWTLogin/Pods-JWTLogin.release.xcconfig"; sourceTree = "<group>"; };
-		84472E57227E1F7D00533348 /* TokenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenTests.swift; sourceTree = "<group>"; };
+		586031B37F30B78AD2526C0E /* LoginViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewControllerSpec.swift; sourceTree = "<group>"; };
+		586032814A1C339475FD8277 /* LoginViewModelSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModelSpec.swift; sourceTree = "<group>"; };
+		586032F9055E6F9C76157834 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		5860343F466FC2D329CE7AB2 /* DependecyAssemblySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependecyAssemblySpec.swift; sourceTree = "<group>"; };
+		5860359AA1CF2110468CF11B /* RxOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxOperators.swift; sourceTree = "<group>"; };
+		58603AA152D49E972D637B8F /* RouterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterViewController.swift; sourceTree = "<group>"; };
+		58603D2436A54C1EA6541EC8 /* AuthApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthApi.swift; sourceTree = "<group>"; };
+		58603D5E8BC051501A58D7BA /* FakeAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeAppDelegate.swift; sourceTree = "<group>"; };
+		58603F2A6DD1134DA065229C /* TokenStoreSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenStoreSpec.swift; sourceTree = "<group>"; };
+		84472E57227E1F7D00533348 /* TokenSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenSpec.swift; sourceTree = "<group>"; };
 		84472E59227E1FD100533348 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
-		84472E682283230200533348 /* TokenHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenHandler.swift; sourceTree = "<group>"; };
-		84472E6A22834DBA00533348 /* TokenHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenHandlerTests.swift; sourceTree = "<group>"; };
 		84472E6C2283508A00533348 /* TokenStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenStore.swift; sourceTree = "<group>"; };
 		84472E7022845D3500533348 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		84781395228AFAB4001A3E5D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84781398228C40A0001A3E5D /* TestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
+		8478139A228D5E94001A3E5D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		848BAA84227D7FA9000D7B98 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		84B4E8FC22860D7E00345B2D /* RouterViewControllerSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewControllerSpec.swift; sourceTree = "<group>"; };
+		84B4E9012286168900345B2D /* RouterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewModel.swift; sourceTree = "<group>"; };
+		84B4E9032286185900345B2D /* DependencyAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyAssembly.swift; sourceTree = "<group>"; };
+		84B4E9062286D49800345B2D /* RouterViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterViewModelSpec.swift; sourceTree = "<group>"; };
+		84B4E9082286F2D000345B2D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		84B4E90F2286FC6600345B2D /* ViewControllerInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInjector.swift; sourceTree = "<group>"; };
+		84B4E91B228742F700345B2D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		84B4E91D2287483300345B2D /* RefreshTokenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshTokenData.swift; sourceTree = "<group>"; };
+		84B67A2F228D9398004FB738 /* FakeJsons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeJsons.swift; sourceTree = "<group>"; };
+		84B67A31228DAD66004FB738 /* AuthServiceSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthServiceSpec.swift; sourceTree = "<group>"; };
 		84EFD047227D63B100557183 /* JWTLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWTLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EFD04A227D63B100557183 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84EFD04C227D63B100557183 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84EFD04F227D63B100557183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84EFD051227D63B300557183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84EFD054227D63B300557183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84EFD056227D63B300557183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84EFD05B227D63B300557183 /* JWTLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWTLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EFD061227D63B300557183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84EFD06A227D787600557183 /* UserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTests.swift; sourceTree = "<group>"; };
+		84EFD06A227D787600557183 /* UserSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSpec.swift; sourceTree = "<group>"; };
 		CBEA676A5A0E2162E10AB9C2 /* Pods-JWTLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWTLoginTests.release.xcconfig"; path = "Target Support Files/Pods-JWTLoginTests/Pods-JWTLoginTests.release.xcconfig"; sourceTree = "<group>"; };
 		E7F433BBEAA4922C719E0824 /* Pods_JWTLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWTLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,10 +129,28 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		586032EC9AE29C1BE7A82774 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5860359AA1CF2110468CF11B /* RxOperators.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		586036BEC817127B5A96BA5B /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				58603D2436A54C1EA6541EC8 /* AuthApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 		84472E5B227E254F00533348 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				84EFD04C227D63B100557183 /* ViewController.swift */,
+				58603AA152D49E972D637B8F /* RouterViewController.swift */,
+				84781395228AFAB4001A3E5D /* LoginViewController.swift */,
+				8478139A228D5E94001A3E5D /* HomeViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,27 +158,19 @@
 		84472E5C227E277800533348 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				84EFD06A227D787600557183 /* UserTests.swift */,
-				84472E57227E1F7D00533348 /* TokenTests.swift */,
+				84EFD06A227D787600557183 /* UserSpec.swift */,
+				84472E57227E1F7D00533348 /* TokenSpec.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		84472E5D227E278700533348 /* Services */ = {
+		84781397228C408A001A3E5D /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				84472E6A22834DBA00533348 /* TokenHandlerTests.swift */,
+				84781398228C40A0001A3E5D /* TestHelper.swift */,
+				84B67A2F228D9398004FB738 /* FakeJsons.swift */,
 			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		84472E6622830E9E00533348 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				84472E682283230200533348 /* TokenHandler.swift */,
-				84472E6C2283508A00533348 /* TokenStore.swift */,
-			);
-			path = Services;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		848BAA81227D7F14000D7B98 /* Models */ = {
@@ -130,8 +178,55 @@
 			children = (
 				848BAA84227D7FA9000D7B98 /* User.swift */,
 				84472E59227E1FD100533348 /* Token.swift */,
+				84B4E91D2287483300345B2D /* RefreshTokenData.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		84B4E8FB22860D5800345B2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84B4E8FC22860D7E00345B2D /* RouterViewControllerSpec.swift */,
+				586031B37F30B78AD2526C0E /* LoginViewControllerSpec.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84B4E9002286167500345B2D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				84B4E9012286168900345B2D /* RouterViewModel.swift */,
+				586032F9055E6F9C76157834 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		84B4E9052286D47D00345B2D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				84B4E9062286D49800345B2D /* RouterViewModelSpec.swift */,
+				586032814A1C339475FD8277 /* LoginViewModelSpec.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		84B4E90E2286FC4900345B2D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84472E6C2283508A00533348 /* TokenStore.swift */,
+				84B4E90F2286FC6600345B2D /* ViewControllerInjector.swift */,
+				84B4E91B228742F700345B2D /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84B4E91522873ED400345B2D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84B67A31228DAD66004FB738 /* AuthServiceSpec.swift */,
+				58603F2A6DD1134DA065229C /* TokenStoreSpec.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		84EFD03E227D63B100557183 = {
@@ -158,7 +253,8 @@
 		84EFD049227D63B100557183 /* JWTLogin */ = {
 			isa = PBXGroup;
 			children = (
-				84472E6622830E9E00533348 /* Services */,
+				84B4E90E2286FC4900345B2D /* Services */,
+				84B4E9002286167500345B2D /* ViewModels */,
 				84472E5B227E254F00533348 /* Views */,
 				848BAA81227D7F14000D7B98 /* Models */,
 				84EFD04A227D63B100557183 /* AppDelegate.swift */,
@@ -166,6 +262,10 @@
 				84EFD051227D63B300557183 /* Assets.xcassets */,
 				84EFD053227D63B300557183 /* LaunchScreen.storyboard */,
 				84EFD056227D63B300557183 /* Info.plist */,
+				84B4E9032286185900345B2D /* DependencyAssembly.swift */,
+				84B4E9082286F2D000345B2D /* main.swift */,
+				586036BEC817127B5A96BA5B /* Api */,
+				586032EC9AE29C1BE7A82774 /* Utils */,
 			);
 			path = JWTLogin;
 			sourceTree = "<group>";
@@ -173,9 +273,14 @@
 		84EFD05E227D63B300557183 /* JWTLoginTests */ = {
 			isa = PBXGroup;
 			children = (
-				84472E5D227E278700533348 /* Services */,
+				84781397228C408A001A3E5D /* Helpers */,
+				84B4E91522873ED400345B2D /* Services */,
+				84B4E9052286D47D00345B2D /* ViewModels */,
+				84B4E8FB22860D5800345B2D /* Views */,
 				84EFD061227D63B300557183 /* Info.plist */,
 				84472E5C227E277800533348 /* Models */,
+				58603D5E8BC051501A58D7BA /* FakeAppDelegate.swift */,
+				5860343F466FC2D329CE7AB2 /* DependecyAssemblySpec.swift */,
 			);
 			path = JWTLoginTests;
 			sourceTree = "<group>";
@@ -219,6 +324,7 @@
 				84EFD057227D63B300557183 /* Sources */,
 				84EFD058227D63B300557183 /* Frameworks */,
 				84EFD059227D63B300557183 /* Resources */,
+				68A3DB41E4DD818F6A273153 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -313,6 +419,34 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		68A3DB41E4DD818F6A273153 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JWTLoginTests/Pods-JWTLoginTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JWTLoginTests/Pods-JWTLoginTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CA291996BC313BC432E413A3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,10 +456,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JWTLogin/Pods-JWTLogin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/JWTDecode/JWTDecode.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
+				"${BUILT_PRODUCTS_DIR}/RxViewController/RxViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
 			);
@@ -333,10 +471,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWTDecode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
 			);
@@ -374,12 +516,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84781396228AFAB4001A3E5D /* LoginViewController.swift in Sources */,
+				84B4E9092286F2D000345B2D /* main.swift in Sources */,
 				84472E6D2283508A00533348 /* TokenStore.swift in Sources */,
-				84EFD04D227D63B100557183 /* ViewController.swift in Sources */,
+				84B4E9102286FC6600345B2D /* ViewControllerInjector.swift in Sources */,
 				84EFD04B227D63B100557183 /* AppDelegate.swift in Sources */,
-				84472E692283230200533348 /* TokenHandler.swift in Sources */,
+				8478139B228D5E94001A3E5D /* HomeViewController.swift in Sources */,
+				84B4E9042286185900345B2D /* DependencyAssembly.swift in Sources */,
+				84B4E9022286168900345B2D /* RouterViewModel.swift in Sources */,
 				848BAA85227D7FA9000D7B98 /* User.swift in Sources */,
+				84B4E91E2287483300345B2D /* RefreshTokenData.swift in Sources */,
+				84B4E91C228742F700345B2D /* AuthService.swift in Sources */,
 				84472E5A227E1FD100533348 /* Token.swift in Sources */,
+				586034FC1847D94FD6633C18 /* FakeAppDelegate.swift in Sources */,
+				586032B482BA74FDFEC1421C /* RouterViewController.swift in Sources */,
+				5860391004C7A69D791483B5 /* AuthApi.swift in Sources */,
+				586032FFF3FCC523F1B8D806 /* LoginViewModel.swift in Sources */,
+				586030EF953B438684A680CA /* RxOperators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,9 +540,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84EFD06B227D787600557183 /* UserTests.swift in Sources */,
-				84472E58227E1F7D00533348 /* TokenTests.swift in Sources */,
-				84472E6B22834DBA00533348 /* TokenHandlerTests.swift in Sources */,
+				84EFD06B227D787600557183 /* UserSpec.swift in Sources */,
+				84B4E8FD22860D7E00345B2D /* RouterViewControllerSpec.swift in Sources */,
+				84B67A32228DAD66004FB738 /* AuthServiceSpec.swift in Sources */,
+				84781399228C40A0001A3E5D /* TestHelper.swift in Sources */,
+				84472E58227E1F7D00533348 /* TokenSpec.swift in Sources */,
+				84B4E9072286D49800345B2D /* RouterViewModelSpec.swift in Sources */,
+				84B67A30228D9398004FB738 /* FakeJsons.swift in Sources */,
+				586032EFE32ABD9557D56C7C /* TokenStoreSpec.swift in Sources */,
+				58603C2B6E90E116D2E49A23 /* DependecyAssemblySpec.swift in Sources */,
+				58603C386BBA8567EFA4219B /* LoginViewControllerSpec.swift in Sources */,
+				5860377A05A0586382D1B533 /* LoginViewModelSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
